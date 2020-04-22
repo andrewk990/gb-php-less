@@ -1,6 +1,7 @@
 <?php
 
-	$hTitle = 'Task 5';
+	// Объявляем переменные
+	$hTitle = 'Task 4*';
 	$h1Title = 'Пракитическое задание к первому уроку курса PHP';
 	$yBasementFooter = date("d.m.Y");
 
