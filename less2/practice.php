@@ -107,4 +107,23 @@ echo mathOperation(10,'*',5).'<br>';
 echo mathOperation(10,'/',0);
 echo "<br><br>";
 
+
+// Задание 6.
+echo "<hr>Задание 6<br><hr>";
+function power($val, $pow){
+    if ($pow == 0)
+        return 1;
+    if ($pow == 1)
+        return $val;
+    $val = $val * power($val, $pow -1);
+    return $val;
+}
+echo power(2,8); // TODO как вытащить переменные из функции, чтобы внести их в комментарий?
+echo "<br><br>";
+
+
+// Задание 7. TODO сделать.
+echo "<hr>Задание 7<br><hr>";
+    echo '- к сожалению';
+echo "<br><br>";
 ?>
